@@ -1,0 +1,37 @@
+# Laravel / PHP
+/vendor/
+/bootstrap/cache/
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/public/storage
+
+# Environment
+.env
+.env.*
+.phpunit.result.cache
+
+# Node / Frontend
+/node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage / Build
+coverage/
+dist/
+build/
+
+# Composer
+# (biasanya composer.lock dib commit untuk aplikasi; sesuaikan bila perlu)
+# composer.lock
